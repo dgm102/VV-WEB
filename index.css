@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+body {
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    overflow-x: hidden;
+font-family: 'Source Sans Pro', sans-serif;}
+body img {max-width: 100%;}
+.site-header {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: transparent;
+  margin: 0 auto;
+ position: absolute;
+    padding: 0 30px;}
+.logo { width: 166px; height: 200px; padding-left: 2.2%;}
+.logo img {max-width: 100%; padding-top: 0.9em; margin-left: -3em;}
+.toplevelnav {width: 50%; color: white; font-size: 1em; letter-spacing: 0.08em; padding: 1.5em;}
+.toplevelnav ul {list-style-type: none;}
+.toplevelnav ul li {display: inline-flex; padding-right: 1.8em;}
+.toplevelnav img {position: relative; top: 3.5px;}
+.toplevelnav a {text-decoration: none; color: white;}
+.toplevelnav ul ul li {display: block;padding: 0.6em;}
+.toplevelnav ul ul li a {color: #ebd5d5;}
+.toplevelnav ul ul li a:hover {color:white;font-weight: bold; }
+.above-fold {border:  2px solid transparent; height: /*600px*/650px; width: 100%; background: url(img/main-rs.jpg) no-repeat; margin: 0 auto;}
+.header-content {width: 600px; margin: 0 auto; margin-top: 20%;}
+.page-title {font-family: 'Source Sans Pro', sans-serif; color: white; font-size: 44px !important; text-align: center; font-weight: 500 !important; margin-top: -1em;}
+.form-wrapper {display: flex; flex-direction: row; margin-left: 25%;}
+.search-form {width: 420px; height: 60px; border-radius: 8px; background-color: white; margin: 0 auto;}
+.search-form p {color: dimgrey; font-size: 18px; padding-left: 1.2em; padding-top: 3px;}
+.search-submit {width: 130px; background-color: darkred; border-radius: 8px;margin-right: 40%;}
+.search-submit h3 {color: white; font-weight: 300 !important; font-size: 1.5em;}
+.btn-wrap {display: flex; flex-direction: row; justify-content: center;}
+.btn-wrap img {padding-left: 1.3em;margin-top: 0.8em;}
+.see {width: 100%; background-color: darkred;color: white; font-size: 2em; ;padding: 1em;margin: 0; text-align: center;padding-bottom: 0;border: 1px double white;}
+.see h2 {margin: 0;font-weight: normal}
+.left-wrapper {width: 100%; display: flex; flex-direction: column;}
+.about {width: 100%; background-image: url(img/what-to-eat-in-vietnam-rs-hue.jpg);}
+.about h3 {color: white; background-color: darkred; padding: 1em;font-size: 2em;font-weight: normal;margin: 0; text-align: center;}
+.about img {}
+.abt-txt {font-size: 1.7em;text-align: center;padding: 1em 3em 0 3em; line-height: 2em;color: white;}
+.below-fold {width: 100%;display: inline-flex;}
+.overlay {background-color: darkred; max-width: 100%; max-height: 100%;} /*http://jsfiddle.net/QupAR/6/*/
+.explore {width: 100%;
+    transition: opacity 500ms ease-out;-webkit-transition : opacity 500ms ease-out; 
+  -moz-transition : opacity 500ms ease-out;
+  -o-transition : opacity 500ms ease-out; }
+.explore a:hover, .learn a:hover, .enjoy a:hover, .connect a:hover {opacity: 0.5;}
+.right-wrapper {width: 70%; display: flex;flex-direction: column;}
+.learn {}
+.learn a, .explore a, .enjoy a, .connect a {color: white; font-size: 2em; text-align: center;text-decoration: none;}
+.learn h3, .explore h3, .enjoy h3, .connect h3 {margin: 0;padding: 0.5em; padding-top: 0;} 
+.icon {position: relative; left: 50%, right:50%;}
+.iconwrap {width: 100%; display: flex; flex-direction: column;justify-content: center;padding-top: 0.4em;}
+.iconwrap h3 {font-weight: normal;}
+.image {position: relative; width: 100%;}
+.image h2 {position: absolute;bottom: 0px; left: 15%; width: 100%;}
+.image h2 span {color: white; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);
+   padding: 10px; }
+#two {position: absolute;bottom: 0px; left: 7%; width: 100%;}
+#three {position: absolute;bottom: 0px; left: 2%; width: 100%;}
+#one {position: absolute;top:30%; left: 35%; width: 100%;}
+.enjoy {} 
+.connect {}
